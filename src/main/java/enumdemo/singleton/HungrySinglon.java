@@ -17,6 +17,7 @@ public class HungrySinglon {
 
     /**
      * 静态内部类实现饿汉模式
+     * 延迟初始化占位类模式
      */
     private static class HungerSingletonHolder{
         private static final HungrySinglon instance = new HungrySinglon();
@@ -25,7 +26,4 @@ public class HungrySinglon {
         return HungerSingletonHolder.instance;
     }
 
-    /**
-     *
-     */
 }
