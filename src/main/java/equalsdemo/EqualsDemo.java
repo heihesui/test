@@ -1,5 +1,7 @@
 package equalsdemo;
 
+import java.math.BigDecimal;
+
 public class EqualsDemo {
     public static void main(String[] args) {
         int num1 = 100;
@@ -50,5 +52,9 @@ public class EqualsDemo {
         System.out.println(str3.intern() == str3);
         String str4 = "java";
         System.out.println("java" == str4);
+
+        BigDecimal bigDecimal1 = new BigDecimal("1");
+        BigDecimal bigDecimal2 = new BigDecimal("1.0000");
+        System.out.println(bigDecimal2.equals(bigDecimal1));
     }
 }
