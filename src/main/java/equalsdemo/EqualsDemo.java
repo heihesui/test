@@ -55,6 +55,8 @@ public class EqualsDemo {
 
         BigDecimal bigDecimal1 = new BigDecimal("1");
         BigDecimal bigDecimal2 = new BigDecimal("1.0000");
+        System.out.println(bigDecimal2 == bigDecimal1);
         System.out.println(bigDecimal2.equals(bigDecimal1));
+        System.out.println(bigDecimal2.compareTo(bigDecimal1));
     }
 }
