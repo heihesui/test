@@ -1,4 +1,4 @@
-package enumdemo.singleton;
+package diff.enumdemo.singleton;
 
 public enum EnumSingleton {
     INSTANCE;

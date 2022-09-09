@@ -1,4 +1,4 @@
-package nullable;
+package diff.nullable;
 
 import java.util.NoSuchElementException;
 import java.util.Optional;

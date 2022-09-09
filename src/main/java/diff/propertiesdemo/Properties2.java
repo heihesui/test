@@ -1,4 +1,4 @@
-package propertiesdemo;
+package diff.propertiesdemo;
 
 import lombok.Data;
 

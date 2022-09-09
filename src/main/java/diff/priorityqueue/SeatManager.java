@@ -1,4 +1,4 @@
-package priorityqueue;
+package diff.priorityqueue;
 
 import java.util.PriorityQueue;
 

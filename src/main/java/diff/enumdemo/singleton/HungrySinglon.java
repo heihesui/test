@@ -1,4 +1,4 @@
-package enumdemo.singleton;
+package diff.enumdemo.singleton;
 
 public class HungrySinglon {
     private static final HungrySinglon instance = new HungrySinglon();

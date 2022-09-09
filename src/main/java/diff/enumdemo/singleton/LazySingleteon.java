@@ -1,4 +1,4 @@
-package enumdemo.singleton;
+package diff.enumdemo.singleton;
 
 public class LazySingleteon {
     private static LazySingleteon instance = null;

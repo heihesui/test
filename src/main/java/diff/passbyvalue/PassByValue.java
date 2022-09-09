@@ -1,4 +1,4 @@
-package passbyvalue;
+package diff.passbyvalue;
 
 public class PassByValue {
     public static void main(String[] args) {

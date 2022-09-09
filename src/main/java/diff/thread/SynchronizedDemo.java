@@ -1,7 +1,6 @@
-package thread;
+package diff.thread;
 
 import java.math.BigInteger;
-import java.util.concurrent.atomic.AtomicInteger;
 
 public class SynchronizedDemo {
     /**

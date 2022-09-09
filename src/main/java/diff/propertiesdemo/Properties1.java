@@ -1,4 +1,4 @@
-package propertiesdemo;
+package diff.propertiesdemo;
 
 public class Properties1 {
     private int number1;

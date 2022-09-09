@@ -1,4 +1,4 @@
-package equalsdemo;
+package diff.equalsdemo;
 
 import java.math.BigDecimal;
 

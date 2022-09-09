@@ -1,4 +1,4 @@
-package exceptiondemo;
+package diff.exceptiondemo;
 
 import lombok.SneakyThrows;
 

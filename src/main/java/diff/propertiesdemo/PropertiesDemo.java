@@ -1,4 +1,4 @@
-package propertiesdemo;
+package diff.propertiesdemo;
 
 public class PropertiesDemo {
     public static void main(String[] args) {
