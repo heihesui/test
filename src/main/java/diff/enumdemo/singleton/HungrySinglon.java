@@ -1,23 +1,21 @@
 package diff.enumdemo.singleton;
 
 public class HungrySinglon {
-    private static final HungrySinglon instance = new HungrySinglon();
+    private static final HungrySinglon INSTANCE = new HungrySinglon();
 
     private HungrySinglon() {
 
     }
 
     /**
-     * 传统饿汉模式
-     *
-     * @return
+     *传统饿汉模式
      */
     public static HungrySinglon getInstanceA() {
-        return instance;
+        return INSTANCE;
     }
 
     public static HungrySinglon getInstanceB() {
-        return HungerSingletonHolder.instance;
+        return HungerSingletonHolder.INSTANCE;
     }
 
     public void doSomeThing() {
@@ -29,7 +27,7 @@ public class HungrySinglon {
      * 延迟初始化占位类模式
      */
     private static class HungerSingletonHolder {
-        private static final HungrySinglon instance = new HungrySinglon();
+        private static final HungrySinglon INSTANCE = new HungrySinglon();
     }
 
 }
