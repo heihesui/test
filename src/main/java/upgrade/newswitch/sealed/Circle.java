@@ -1,4 +1,4 @@
-package upgrade.sealed;
+package upgrade.newswitch.sealed;
 
 public record Circle(double radius) implements Shape {
     @Override

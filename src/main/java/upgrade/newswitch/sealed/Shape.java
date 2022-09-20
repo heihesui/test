@@ -1,4 +1,4 @@
-package upgrade.sealed;
+package upgrade.newswitch.sealed;
 
 public sealed interface Shape permits Circle, Rectangle, Square {
 

@@ -1,10 +1,10 @@
 package upgrade.newswitch;
 
 
-import upgrade.sealed.Circle;
-import upgrade.sealed.Rectangle;
-import upgrade.sealed.Shape;
-import upgrade.sealed.Square;
+import upgrade.newswitch.sealed.Circle;
+import upgrade.newswitch.sealed.Rectangle;
+import upgrade.newswitch.sealed.Shape;
+import upgrade.newswitch.sealed.Square;
 
 import java.util.Calendar;
 

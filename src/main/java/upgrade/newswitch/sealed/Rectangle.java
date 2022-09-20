@@ -1,4 +1,4 @@
-package upgrade.sealed;
+package upgrade.newswitch.sealed;
 
 
 public record Rectangle(double length, double width) implements Shape {
